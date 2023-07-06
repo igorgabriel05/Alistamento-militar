@@ -24,8 +24,12 @@ header{
 }
 
 .info {
-    margin-left: 92rem;
+    margin-left: 85rem;
     word-spacing: 5rem;
+}
+
+.info #espaco{
+    word-spacing: 0rem;
 }
 
 .info a {
@@ -70,4 +74,124 @@ header{
 .sobre p {
     font-size: 1.7rem;
     color: white;
+}
+
+
+#section1 .box {
+    padding: 2em;
+    color: #ffffff;
+}
+
+#section1 .box:first-child {
+    background: green;
+    ;
+}
+
+#section1 .box:first-child h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+#section1 .box:first-child p {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+#section1 .box:last-child {
+    background: darkgreen;
+    color: black;
+}
+
+#section1 .box:last-child h1 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#section1 .box:last-child p {
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+#section1 .box:last-child a {
+    color: white;
+    text-decoration: none;
+}
+
+.documentos {
+    background-color: white;
+    padding: 4rem 4rem 6rem 4rem;
+}
+
+.documentos h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
+    color: #333;
+}
+
+.documentos li {
+    font-size: 1.7rem;
+    color: #333;
+}
+
+.passo-a-passo {
+    background-color: #333;
+    padding: 4rem 4rem 6rem 4rem;
+}
+
+.passo-a-passo h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
+    color: white;
+}
+
+.passo-a-passo p{
+    font-size: 1.7rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+.passo-a-passo a{
+    color: aqua;
+}
+
+.passo-a-passo #passo2{
+    padding-top: 2rem;
+}
+
+.presencial {
+    background-color: white;
+    padding: 4rem 4rem 6rem 4rem;
+}
+
+.presencial h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
+    color: #333;
+}
+
+.presencial li {
+    font-size: 1.7rem;
+    color: #333;
+}
+
+.presencial a{
+    color: crimson;
+}
+
+@media (min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .box,
+    #main-footer div {
+        grid-column: span 2;
+    }
+
+    
 }
