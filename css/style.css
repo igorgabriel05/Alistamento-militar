@@ -16,7 +16,7 @@ header{
 
 .cabecalho h1 {
     font-size: 30px;
-    color: rgb(243, 243, 243);
+    color: green;
     height: 10px;
     display: flex;
     margin-right: 50px;
@@ -40,7 +40,7 @@ header{
 
 .inicio h1.mensagem-inicial {
     text-align: center;
-    color: dodgerblue;
+    color: forestgreen;
     border: 2px;
     border-color: aliceblue;
     font-size: 75px;
@@ -180,6 +180,43 @@ header{
 
 .presencial a{
     color: crimson;
+}
+
+.contato {
+    padding: 2rem 2rem 4.4rem 2rem;
+    background: linear-gradient(62deg, rgb(58, 61, 64) 0%, rgb(24, 23, 25) 100%);
+}
+
+.contato h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+.contato a {
+    color: blueviolet;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.contato .ref {
+    word-spacing: 50px; 
+    margin-left: 680px;
+    padding-top: 50px;
+}
+
+.linha{
+    padding: 4px;
+    background-color: crimson;
+}
+
+.final{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(62deg, rgb(58, 61, 64) 0%, rgb(24, 23, 25) 100%);
+    color: blueviolet;
+    font-size: 30px;
 }
 
 @media (min-width: 700px) {
